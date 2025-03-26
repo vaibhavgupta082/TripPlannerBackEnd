@@ -1,0 +1,5 @@
+Django>=5.1  # Core framework
+djangorestframework>=3.15  # API framework
+django-cors-headers>=4.7  # Handle CORS for frontend
+psycopg2-binary>=2.9  # PostgreSQL adapter
+sqlparse>=0.5  # SQL parsing for Django
