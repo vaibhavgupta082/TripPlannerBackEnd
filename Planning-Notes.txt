@@ -1,0 +1,18 @@
+Vaibhav  --------------------------------
+
+date 28/03/2025
+
+Flow for AI-Driven Trip Planning
+	1.	Ask Users a Series of Questions
+	•	Preferred travel type? (Adventure, Relaxation, Culture, Food, etc.)
+	•	Travel distance preference? (Local, <100 km, Domestic, International)
+	•	Budget range? (Low, Medium, High)
+	•	Duration? (1-day, Weekend, Week-long)
+	•	Group type? (Solo, Couple, Family, Friends)
+	2.	Process Answers with AI
+	•	Use OpenAI’s GPT API to analyze responses and suggest places.
+	•	Fetch real-time location using Google Geolocation API.
+	•	Filter recommendations using Google Places API or Foursquare API.
+	3.	Display Top 1-10 Recommendations
+	•	Show images, descriptions, travel time, and estimated budget.
+	•	Provide navigation links (Google Maps, Uber, etc.).
